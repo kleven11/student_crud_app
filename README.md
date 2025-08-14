@@ -1,17 +1,17 @@
-# Student CRUD Management System
+# 🎓 Student CRUD Management System
 
-A Python-based command-line application to manage student records with features like create, read, update, delete (CRUD), search, backup/restore, and CSV import/export.  
+A Python-based **command-line application** to manage student records with features like Create, Read, Update, Delete (CRUD), search, backup/restore, and CSV import/export.  
 Built with **SQLite** for storage and **Tabulate** for clean, formatted tables.
 
 ---
 
 ## 📌 Features
-- Add, update, delete student records
-- Search students by name, email, grade, or GPA range
-- Role-based access control (Admin & Viewer)
-- Backup and restore the database
-- Import and export data via CSV
-- Input validation for dates, emails, phone numbers, and GPA
+- ➕ Add, ✏️ Update, ❌ Delete student records  
+- 🔍 Search students by **name, email, grade, or GPA range**  
+- 🔐 Role-based access control (**Admin** & **Viewer**)  
+- 💾 Backup and restore the database  
+- 📤 Import and 📥 export data via CSV  
+- ✅ Input validation for **dates, emails, phone numbers, and GPA**
 
 ---
 
@@ -22,38 +22,49 @@ Built with **SQLite** for storage and **Tabulate** for clean, formatted tables.
 
 ---
 
-## 📦 Installation
-1. Clone the repository:
-   In your terminal enter
+## 📦 Installation & Setup
 
-   git clone https://github.com/your-username/student_crud_app.git
-   cd student_crud_app
+1️⃣ **Clone the repository**
 
-3. Then you need to run setup_db.py only once for the first time. This initializes the database and it's tables.
-   
-    python setup_db.py
-   
-4. Run the application:
+git clone https://github.com/your-username/student_crud_app.git
+cd student_crud_app
 
-   python main.py
+2️⃣ Initialize the database (Run only once)
 
-5. Initially to get admin privileges the default credentials are 
+python setup_db.py
+This will create the database and required tables.
 
-     username = admin
-     password = admin123
+3️⃣ Run the application
 
-     Use them to login as admin, then you can add other admin users.
+python main.py
 
----
+4️⃣ Login with default admin credentials (first-time use only)
 
-## 🔐 Roles
-
-Admin: Full access (CRUD, backup/restore, import/export)
-
-Viewer: Read-only access
+Username: admin
+Password: admin123
+📝 After logging in as admin, you can create other admin or viewer accounts.
 
 ---
 
-## 📂 Sample Data
+🔐 Roles
 
-You can import the sample CSV file named "student_import.csv" directly into the database.
+Admin:- Full access: CRUD, backup/restore, import/export
+
+Viewer:- Read-only access: Can only view student records
+
+---
+
+📂 Sample Data
+
+A sample CSV file named student_import.csv is provided.
+
+To import it:
+
+Run the application
+
+Select "Import from CSV" from the menu
+
+Enter student_import.csv as the filename(or copy filepath)
+
+📄 License
+This project is open-source and available under the MIT License.
