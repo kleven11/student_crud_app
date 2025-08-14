@@ -34,7 +34,7 @@ if cur.fetchone()[0] == 0:
     default_pass = "admin123"  # change after first login
     ph = hashlib.sha256(default_pass.encode()).hexdigest()
     cur.execute("INSERT INTO users (username, password_hash) VALUES (?, ?)", (default_user, ph))
-    print("✅ Created default admin -> username: admin | password: admin123 (please change)")
+    print("✅ Created default admin -> username: admin | password: admin123 ")
     print("✅ Users table ready.")
 
 
