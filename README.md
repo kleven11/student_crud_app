@@ -33,6 +33,7 @@ cd student_crud_app
 2️⃣ Initialize the database (Run only once)
 
 python setup_db.py
+
 This will create the database and required tables.
 
 3️⃣ Run the application
