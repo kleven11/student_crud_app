@@ -44,6 +44,7 @@ python main.py
 
 Username: admin
 Password: admin123
+
 📝 After logging in as admin, you can create other admin or viewer accounts.
 
 ---
