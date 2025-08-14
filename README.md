@@ -47,7 +47,7 @@ Password: admin123
 
 ---
 
-🔐 Roles
+## 🔐 Roles
 
 Admin:- Full access: CRUD, backup/restore, import/export
 
@@ -55,7 +55,7 @@ Viewer:- Read-only access: Can only view student records
 
 ---
 
-📂 Sample Data
+## 📂 Sample Data
 
 A sample CSV file named student_import.csv is provided.
 
