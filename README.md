@@ -29,7 +29,7 @@ Built with **SQLite** for storage and **Tabulate** for clean, formatted tables.
    git clone https://github.com/your-username/student_crud_app.git
    cd student_crud_app
 
-2. Then you need to run setup_db.py only once for the first time. This initializes the database and it's tables.
+3. Then you need to run setup_db.py only once for the first time. This initializes the database and it's tables.
    
     python setup_db.py
    
@@ -39,10 +39,10 @@ Built with **SQLite** for storage and **Tabulate** for clean, formatted tables.
 
 5. Initially to get admin privileges the default credentials are 
 
-  username = admin
-  password = admin123
+     username = admin
+     password = admin123
 
-  Use them to login as admin, then you can add other admin users.
+     Use them to login as admin, then you can add other admin users.
 
 ---
 
