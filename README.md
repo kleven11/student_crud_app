@@ -27,6 +27,7 @@ Built with **SQLite** for storage and **Tabulate** for clean, formatted tables.
 1️⃣ **Clone the repository**
 
 git clone https://github.com/your-username/student_crud_app.git
+
 cd student_crud_app
 
 2️⃣ Initialize the database (Run only once)
